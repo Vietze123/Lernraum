@@ -36,4 +36,6 @@ Weitere selbst angelegte Fächer bekommen eine deterministische Zuordnung; dabei
 | Rechtskunde | glockenblume |
 | Naturwissenschaften und Gesundheit | lupine |
 
-Lokale, stilisierte SVG-Linienzeichnungen; ausschließlich Seitenrand und separater Dekorbereich unter dem Inhalt. Kartenflächen und Lernkarten bleiben ohne florale Ornamente. Die feste Fach-ID bestimmt Farbe und Motiv gemeinsam; keine Emojis und keine externen Bilddienste.
+Lokale, stilisierte SVG-Linienzeichnungen; als wiederholter Seitenhintergrund, bereits in der ersten sichtbaren Fachansicht. Kartenflächen und Lernkarten bleiben ohne florale Ornamente. Die feste Fach-ID bestimmt Farbe und Motiv gemeinsam; keine Emojis und keine externen Bilddienste.
+
+Die Motive werden großflächig über den Seitenhintergrund wiederholt. Warme Hinterlegungen schützen die Textkontraste. Themen-, Karten- und Lernkartenflächen sind deckend und zeigen keine floralen Ornamente.

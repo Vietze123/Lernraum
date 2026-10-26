@@ -33,3 +33,24 @@ main[data-palette="9"]{--botanical:url("botanical/rose.svg")}
 main[data-palette="10"]{--botanical:url("botanical/glockenblume.svg")}
 main[data-palette="11"]{--botanical:url("botanical/lupine.svg")}
 main::before{background-image:var(--botanical,url("botanical.svg"));width:clamp(12px,2vw,32px);right:2px}.botanical-footer{background-image:var(--botanical,url("botanical.svg"));height:112px;background-size:100px 144px;background-position:right top;opacity:.42}@media(max-width:760px){main::before{width:12px;right:1px;opacity:.16}.botanical-footer{height:88px;background-size:84px 121px;opacity:.4}}
+
+/* Botanical wallpaper fills the page from the first visible subject view. */
+main::before{inset:0;width:auto;height:auto;background-image:var(--botanical,url("botanical.svg"));background-size:230px 332px;background-position:right -32px top 2px;background-repeat:repeat;opacity:.3;mask-image:linear-gradient(90deg,#0006,#0009 48%,#000 80%);-webkit-mask-image:linear-gradient(90deg,#0006,#0009 48%,#000 80%);pointer-events:none}.botanical-footer{display:none}header{background:linear-gradient(90deg,#f6e6d880,#f6e6d822 70%,transparent)}.topic,.card,.flash{background-image:none}aside{isolation:isolate}aside::before{content:"";position:absolute;inset:0;background-image:var(--page-botanical,url("botanical/mohn.svg"));background-size:190px 275px;background-repeat:repeat;background-position:right -22px top -3px;opacity:.13;z-index:-1;pointer-events:none}
+body:has(main[data-palette="0"]){--page-botanical:url("botanical/mohn.svg")}
+body:has(main[data-palette="1"]){--page-botanical:url("botanical/lavendel.svg")}
+body:has(main[data-palette="2"]){--page-botanical:url("botanical/margerite.svg")}
+body:has(main[data-palette="3"]){--page-botanical:url("botanical/sonnenblume.svg")}
+body:has(main[data-palette="4"]){--page-botanical:url("botanical/kornblume.svg")}
+body:has(main[data-palette="5"]){--page-botanical:url("botanical/klee.svg")}
+body:has(main[data-palette="6"]){--page-botanical:url("botanical/fuchsie.svg")}
+body:has(main[data-palette="7"]){--page-botanical:url("botanical/tulpe.svg")}
+body:has(main[data-palette="8"]){--page-botanical:url("botanical/iris.svg")}
+body:has(main[data-palette="9"]){--page-botanical:url("botanical/rose.svg")}
+body:has(main[data-palette="10"]){--page-botanical:url("botanical/glockenblume.svg")}
+body:has(main[data-palette="11"]){--page-botanical:url("botanical/lupine.svg")}
+@media(max-width:760px){main::before{inset:0;width:auto;height:auto;background-size:210px 304px;background-position:right -23px top 0;opacity:.32;mask-image:linear-gradient(90deg,#0005,#0009 50%,#000 80%);-webkit-mask-image:linear-gradient(90deg,#0005,#0009 50%,#000 80%)}aside::before{background-size:170px 246px;background-position:right -8px top -4px;opacity:.18}}@media(max-width:360px){main::before{background-size:195px 282px;background-position:right -24px top 0;opacity:.3}}
+
+/* Warm text backing protects contrast while keeping the surrounding wallpaper visible. */
+.subject-tab,.nav-empty{background-color:#f3dcc8}.subject-tab.active{background-color:#fae9d8}.topline>.eyebrow,header h1,header #subtitle,.statusbar .muted,.toolbar h2,.back,footer,.section-label{background-color:#f6e6d8f2;border-radius:5px;box-decoration-break:clone;-webkit-box-decoration-break:clone}header h1,header #subtitle,.statusbar .muted{width:fit-content}header h1{padding-right:6px}
+
+.brand small,.sidehead h2,.private{background-color:#eed0bbf2;border-radius:4px;width:fit-content}
