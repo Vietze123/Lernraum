@@ -8,7 +8,7 @@ Vorgesehene Pages-Adresse: https://vietze123.github.io/Lernraum/
 
 Der Besitzer verwaltet dieses Repository, Programmupdates und optional die Ausgangsvorlage.
 Seine Freundin öffnet den Pages-Link ohne Anmeldung. Im normalen Modus werden Karten
-nur angezeigt und gelernt. Erst **Persönlich anpassen** aktiviert Anlegen, Bearbeiten und
+nur angezeigt und gelernt. Erst **Bearbeitungsmodus** aktiviert Anlegen, Bearbeiten und
 Löschen. **Bearbeitung beenden** schaltet zurück. Beim Start einer Lernrunde wird der
 Bearbeitungsmodus immer beendet; im Lernmodus gibt es nur Umdrehen, Gewusst und Wiederholen.
 
@@ -17,7 +17,7 @@ Persönliche Änderungen und Lernstände bleiben auf dem jeweiligen Gerät.
 
 ## Karten per Datei austauschen
 
-1. Ausgangsinhalte in der App über **Persönlich anpassen** eingeben.
+1. Ausgangsinhalte in der App über **Bearbeitungsmodus** eingeben.
 2. **Hilfe & Datensicherung → JSON-Sicherung exportieren** wählen und die Datei privat weitergeben.
 3. Die Empfängerin öffnet dieselbe App auf ihrem Gerät und importiert die Datei.
 4. Sie kann lernen und nach Aktivierung des Bearbeitungsmodus eigene Änderungen vornehmen.

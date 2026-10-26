@@ -1,7 +1,6 @@
 # Gestaltung des Lernraums
 
-Stand: 26. Oktober 2026. Die warme Palette ist eine ästhetische Entscheidung für einen
-persönlichen, ruhigen Lernort. Sie ist keine Behauptung, dass warme Farben oder eine bestimmte
+Stand: 26. Oktober 2026. Die warme Palette ist eine ästhetische Entscheidung. Sie ist keine Behauptung, dass warme Farben oder eine bestimmte
 Farbe generell Gedächtnis, Leistung oder Wohlbefinden verbessern.
 
 ## Was die Gestaltung leitet
