@@ -14,3 +14,22 @@
 .tone-10,main[data-palette="10"],dialog[data-palette="10"]{--accent:#24595c;--tint:#b9d4cf;--paper:#d9e8df;--line:#7fa3a1}
 .tone-11,main[data-palette="11"],dialog[data-palette="11"]{--accent:#454b78;--tint:#cbcae0;--paper:#e5e3f0;--line:#9799b8}
 #editor{background:var(--paper);border-top:7px solid var(--accent)}#editor .dialoghead h2,#editor label{color:var(--accent)}#editor input,#editor textarea{border-color:var(--accent)}.editor-subject{color:var(--accent);font-size:13px;font-weight:650;margin:0 0 16px;overflow-wrap:anywhere}.study-meta{flex-wrap:wrap}.study-meta .muted{max-width:100%}.status{white-space:normal;text-align:center}
+
+/* Decorative botanical details stay in the page margins, outside the content. */
+.brand-mark img,.small-flower img{display:block;pointer-events:none}.small-flower{display:inline-flex;vertical-align:middle;pointer-events:none}.brand-mark{pointer-events:none}main{position:relative;isolation:isolate}main::before{content:"";position:absolute;right:3px;top:145px;width:43px;height:330px;background:url("botanical.svg") center/contain no-repeat;opacity:.17;z-index:-1;pointer-events:none}.botanical-footer{width:170px;height:86px;margin:20px 0 -18px auto;background:url("botanical.svg") right center/100px 144px no-repeat;opacity:.48;pointer-events:none}.study-complete:before{content:none}@media(max-width:760px){.brand-mark img{width:28px;height:32px}main::before{right:1px;top:150px;width:17px;height:270px;opacity:.14}.botanical-footer{width:130px;height:66px;margin:14px 0 -12px auto;background-size:84px 121px;opacity:.4}}
+
+
+/* Each fixed subject palette selects an individual botanical silhouette. */
+main[data-palette="0"]{--botanical:url("botanical/mohn.svg")}
+main[data-palette="1"]{--botanical:url("botanical/lavendel.svg")}
+main[data-palette="2"]{--botanical:url("botanical/margerite.svg")}
+main[data-palette="3"]{--botanical:url("botanical/sonnenblume.svg")}
+main[data-palette="4"]{--botanical:url("botanical/kornblume.svg")}
+main[data-palette="5"]{--botanical:url("botanical/klee.svg")}
+main[data-palette="6"]{--botanical:url("botanical/fuchsie.svg")}
+main[data-palette="7"]{--botanical:url("botanical/tulpe.svg")}
+main[data-palette="8"]{--botanical:url("botanical/iris.svg")}
+main[data-palette="9"]{--botanical:url("botanical/rose.svg")}
+main[data-palette="10"]{--botanical:url("botanical/glockenblume.svg")}
+main[data-palette="11"]{--botanical:url("botanical/lupine.svg")}
+main::before{background-image:var(--botanical,url("botanical.svg"));width:clamp(12px,2vw,32px);right:2px}.botanical-footer{background-image:var(--botanical,url("botanical.svg"));height:112px;background-size:100px 144px;background-position:right top;opacity:.42}@media(max-width:760px){main::before{width:12px;right:1px;opacity:.16}.botanical-footer{height:88px;background-size:84px 121px;opacity:.4}}

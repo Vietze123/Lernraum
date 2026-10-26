@@ -18,3 +18,22 @@ Die Zuordnung erfolgt ausdrücklich über die zwölf stabilen Fach-IDs, nicht ü
 | Naturwissenschaften und Gesundheit | Indigoblau | #454b78 |
 
 Weitere selbst angelegte Fächer bekommen eine deterministische Zuordnung; dabei können sich Farben wiederholen. Fachbezeichnungen bleiben zusätzlich sichtbar.
+
+## Botanische Motive am Seitenrand
+
+| Fach | Motiv |
+|---|---|
+| PMK | mohn |
+| Psychologie | lavendel |
+| Pädagogik | margerite |
+| Deutsch&Kommunikation | sonnenblume |
+| Englisch | kornblume |
+| Bewegung | klee |
+| Musik | fuchsie |
+| Werken | tulpe |
+| Kunst | iris |
+| Religionspädagogik | rose |
+| Rechtskunde | glockenblume |
+| Naturwissenschaften und Gesundheit | lupine |
+
+Lokale, stilisierte SVG-Linienzeichnungen; ausschließlich Seitenrand und separater Dekorbereich unter dem Inhalt. Kartenflächen und Lernkarten bleiben ohne florale Ornamente. Die feste Fach-ID bestimmt Farbe und Motiv gemeinsam; keine Emojis und keine externen Bilddienste.
