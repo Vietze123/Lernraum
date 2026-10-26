@@ -10,7 +10,7 @@ Der Besitzer verwaltet dieses Repository, Programmupdates und optional die Ausga
 Seine Freundin öffnet den Pages-Link ohne Anmeldung. Im normalen Modus werden Karten
 nur angezeigt und gelernt. Erst **Bearbeitungsmodus** aktiviert Anlegen, Bearbeiten und
 Löschen. **Bearbeitung beenden** schaltet zurück. Beim Start einer Lernrunde wird der
-Bearbeitungsmodus immer beendet; im Lernmodus gibt es nur Umdrehen, Gewusst und Wiederholen.
+Bearbeitungsmodus immer beendet; im Lernmodus gibt es Umdrehen, Gewusst, Wiederholen und den bewussten Zyklus-Neustart.
 
 Es gibt keine Accounts, Cloud-Synchronisierung, Freigaben oder Vorschlagsprozesse.
 Persönliche Änderungen und Lernstände bleiben auf dem jeweiligen Gerät.
@@ -39,7 +39,7 @@ gewünschten Browser bzw. in der Home-Bildschirm-App importieren.
 
 ## Optionale zentrale Ausgangsvorlage pflegen
 
-`content.json` ist anfangs leer. Nur bewusst öffentliche Inhalte gehören hinein: Sowohl das
+`content.json` enthält die zwölf vorgegebenen Fächer mit stabilen IDs; pro Fach gibt es die Untergruppe Beispielkarten mit drei Beispielfrage-/Beispielantwort-Platzhaltern. Nur bewusst öffentliche Inhalte gehören hinein: Sowohl das
 Repository als auch die App und diese Datei sind öffentlich abrufbar. Private Lerninhalte
 stattdessen ausschließlich in der App erfassen und per Sicherungsdatei austauschen.
 
@@ -124,3 +124,21 @@ Offizielle Anleitung: https://docs.github.com/en/pages/getting-started-with-gith
 
 Gestaltungsentscheidungen, Kontrastprüfung und Quellen sind in [DESIGN.md](DESIGN.md) dokumentiert.
 Die Farben erleichtern die Orientierung; es wird keine allgemeine Gedächtniswirkung bestimmter Farben versprochen.
+
+## Fächervorlage und Lernzyklen
+
+Die Vorlage enthält PMK, Psychologie, Pädagogik, Deutsch&Kommunikation, Englisch, Bewegung, Musik, Werken, Kunst, Religionspädagogik, Rechtskunde sowie Naturwissenschaften und Gesundheit. Pro Fach wurde ausdrücklich die Untergruppe Beispielkarten mit drei neutralen Beispielfrage-/Beispielantwort-Platzhaltern ergänzt. Echte Lerninhalte oder Klausuren sind nicht enthalten.
+
+Beim erstmaligen Ergänzen eines Vorlagenfachs wird ein vorhandenes gleichnamiges lokales Fach übernommen. Groß-/Kleinschreibung, Rand-Leerzeichen, mehrfache Leerzeichen und Leerzeichen um & werden beim Abgleich ignoriert. Themen, Karten, Fortschritt und vorhandene Schreibweise bleiben erhalten. Die technische Fach-ID wird der stabilen Vorlagen-ID zugeordnet; die feste Fachfarbe der zugeordneten Vorlagen-ID wird übernommen. Ein lokaler colorKey bleibt nur als Rückfall für zusätzliche eigene Fächer erhalten. Bei bereits vorhandenen mehreren gleichnamigen lokalen Fächern wird nur das erste zugeordnet; bestehende eigene Duplikate werden nicht gelöscht. Kein unscharfer Ähnlichkeitsvergleich. Lokal gelöschte oder umbenannte bereits zugeordnete Fächer werden bei erneutem Laden nicht zurückgesetzt.
+
+Ein Lernzyklus wird pro Thema gespeichert: 0/3 noch nicht gewusst, 1/3 einmal gewusst, 2/3 zweimal gewusst, 3/3 abgeschlossen. Nach Gewusst erhöht sich der Zähler um eins. Wiederholen erhöht und vermindert ihn nicht; richtige Antworten müssen nicht aufeinander folgen. Nicht abgeschlossene Karten kommen im nächsten Durchlauf wieder. Eine 3/3-Karte bleibt gespeichert und wird nur aus dem aktuellen Zyklus genommen. Durchlauf, Reihenfolge, Position und Zähler liegen lokal im optionalen cycles-Feld der v2-Sicherung. Beim Öffnen von Lernen wird ein vorhandener Zyklus fortgesetzt. Zyklus neu starten setzt bewusst auf 0/3 zurück, bei laufendem Zyklus nach Bestätigung.
+
+Alte Sicherungen ohne Lernzyklen bleiben gültig. Ein früheres Gewusst wird beim ersten Zyklus als 1/3 übernommen, da frühere Wiederholungszahlen nicht gespeichert wurden; neue oder zu wiederholende Karten beginnen bei 0/3. Beim expliziten Neustart beginnen alle Karten bei 0/3. Entfernte Karten/Topics werden aus den Zyklusdaten entfernt, neu hinzugefügte Karten erhalten 0/3. Die Dateiübergabe umfasst den Lernzyklus; ein Import ersetzt weiterhin den gesamten lokalen Stand nach Bestätigung. Keine automatische Rückübertragung.
+
+## Feste Fachfarben
+
+Alle zwölf vorgegebenen Fächer haben ausdrücklich fest codierte, individuelle Farbpaletten über ihre stabilen IDs. Die Zuordnung gilt auch für zugeordnete gleichnamige importierte Fächer und bleibt beim Umbenennen erhalten. [Zuordnung und Farbnamen](FACHFARBEN.md). Kein Farbeditor; zusätzliche eigene Fächer erhalten eine deterministische Zuordnung, bei der Wiederholungen möglich sind.
+
+## Beispielkarten
+
+Jedes Fach enthält genau die Demo-Untergruppe Beispielkarten mit drei Karten Beispielfrage 1 bis 3 / Beispielantwort 1 bis 3. Das sind ausschließlich Platzhalter, keine fachlichen Lerninhalte. Demo-IDs sind dauerhaft; Beispiele werden wie andere Karten im Bearbeitungsmodus bearbeitet oder gelöscht. Persönliche Änderungen bleiben bei Vorlagenupdates erhalten. Lokal gelöschte Beispiele werden bei unveränderter Vorlage nicht wiederhergestellt. Sie werden erst bei einer bewussten Wiederherstellung einer Sicherung mit diesen Beispielen erneut übernommen.

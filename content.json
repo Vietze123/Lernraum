@@ -1,5 +1,330 @@
 {
   "schemaVersion": 1,
-  "revision": "1",
-  "subjects": []
+  "revision": "3",
+  "subjects": [
+    {
+      "id": "fach-pmk",
+      "name": "PMK",
+      "topics": [
+        {
+          "id": "demo-pmk-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-pmk-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-pmk-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-pmk-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-psychologie",
+      "name": "Psychologie",
+      "topics": [
+        {
+          "id": "demo-psychologie-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-psychologie-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-psychologie-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-psychologie-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-paedagogik",
+      "name": "Pädagogik",
+      "topics": [
+        {
+          "id": "demo-paedagogik-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-paedagogik-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-paedagogik-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-paedagogik-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-deutsch-kommunikation",
+      "name": "Deutsch&Kommunikation",
+      "topics": [
+        {
+          "id": "demo-deutsch-kommunikation-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-deutsch-kommunikation-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-deutsch-kommunikation-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-deutsch-kommunikation-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-englisch",
+      "name": "Englisch",
+      "topics": [
+        {
+          "id": "demo-englisch-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-englisch-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-englisch-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-englisch-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-bewegung",
+      "name": "Bewegung",
+      "topics": [
+        {
+          "id": "demo-bewegung-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-bewegung-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-bewegung-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-bewegung-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-musik",
+      "name": "Musik",
+      "topics": [
+        {
+          "id": "demo-musik-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-musik-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-musik-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-musik-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-werken",
+      "name": "Werken",
+      "topics": [
+        {
+          "id": "demo-werken-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-werken-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-werken-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-werken-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-kunst",
+      "name": "Kunst",
+      "topics": [
+        {
+          "id": "demo-kunst-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-kunst-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-kunst-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-kunst-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-religionspaedagogik",
+      "name": "Religionspädagogik",
+      "topics": [
+        {
+          "id": "demo-religionspaedagogik-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-religionspaedagogik-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-religionspaedagogik-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-religionspaedagogik-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-rechtskunde",
+      "name": "Rechtskunde",
+      "topics": [
+        {
+          "id": "demo-rechtskunde-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-rechtskunde-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-rechtskunde-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-rechtskunde-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fach-naturwissenschaften-gesundheit",
+      "name": "Naturwissenschaften und Gesundheit",
+      "topics": [
+        {
+          "id": "demo-naturwissenschaften-gesundheit-thema",
+          "name": "Beispielkarten",
+          "cards": [
+            {
+              "id": "demo-naturwissenschaften-gesundheit-karte-1",
+              "question": "Beispielfrage 1",
+              "answer": "Beispielantwort 1"
+            },
+            {
+              "id": "demo-naturwissenschaften-gesundheit-karte-2",
+              "question": "Beispielfrage 2",
+              "answer": "Beispielantwort 2"
+            },
+            {
+              "id": "demo-naturwissenschaften-gesundheit-karte-3",
+              "question": "Beispielfrage 3",
+              "answer": "Beispielantwort 3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

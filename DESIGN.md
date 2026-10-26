@@ -9,9 +9,7 @@ Farbe generell Gedächtnis, Leistung oder Wohlbefinden verbessern.
   Rosé, Pflaume, Ocker und gedämpftes Oliv für zurückhaltende Akzente.
 - Große, farbige Serifentitel und klar getrennte Inhaltsflächen. Text bleibt echter Text und
   kann umbrechen; die dekorative Illustration enthält keine Lerninhalte.
-- Sechs Fachpaletten, deterministisch aus der unveränderten Fach-ID abgeleitet. Umbenennen
-  ändert die Farbe nicht. Es werden keine zusätzlichen Daten gespeichert. Bei mehr als sechs
-  Fächern oder Hash-Kollisionen können sich Farben wiederholen; Fachnamen bleiben entscheidend.
+- Zwölf feste Fachpaletten, explizit den zwölf vorgegebenen stabilen Fach-IDs zugeordnet. Umbenennen, Neuladen und Import ändern die Zuordnung nicht. Zusätzliche eigene Fächer erhalten eine deterministische Zuordnung mit möglichen Wiederholungen; Fachnamen bleiben entscheidend. Die Zuordnung steht in FACHFARBEN.md.
 - Dieselbe Fachfarbe bei Navigation, Überschriften, Karten und Lernmodus. Eine dünne obere
   Farbkante, farbige Kartenköpfe und zurückhaltende Schatten erinnern an Karteikarten aus Papier.
 - Gewusst, Wiederholen und Neu tragen Text und Symbole. Aktives Fach: Rand, Text und
@@ -41,13 +39,13 @@ Multimedia-Lernsituation die Zuordnung; die Studie berichtet bessere Behaltens- 
 Transferleistungen. Das ist keine Untersuchung dieser App und kein Beleg für eine generelle
 Gedächtniswirkung von Terrakotta, Rosé oder warmen Farben. Hier dient Fachfarbe ausschließlich
 als zusätzliche Orientierung. Die Studie begründet keine bestimmte Anzahl von Fachfarben;
-sechs Paletten sind eine praktische Gestaltungsentscheidung.
+die Anzahl der Paletten folgt den zwölf vorgegebenen Fächern.
 DOI: https://doi.org/10.1016/j.compedu.2009.03.002
 Universitätsnachweis: https://open.metu.edu.tr/handle/11511/28595
 
 ## Prüfung
 
-60 explizite Text-/Hintergrund-Paare inklusive aller Fachpaletten rechnerisch mindestens
+96 explizite Text-/Hintergrund-Paare inklusive aller Fachpaletten rechnerisch mindestens
 4,5:1. Keine vollständige WCAG-Zertifizierung. Mobile Browseransicht bei 390 und 320 CSS-Pixeln,
 lange Fach-/Thementitel und längere Karten ohne horizontales Überlaufen geprüft. Anlegen,
 Ansicht ohne Bearbeitungsaktionen, Lernkarte umdrehen, Wiederholen, Wiederholungsrunde und
