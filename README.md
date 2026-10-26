@@ -142,3 +142,13 @@ Alle zwölf vorgegebenen Fächer haben ausdrücklich fest codierte, individuelle
 ## Beispielkarten
 
 Jedes Fach enthält genau die Demo-Untergruppe Beispielkarten mit drei Karten Beispielfrage 1 bis 3 / Beispielantwort 1 bis 3. Das sind ausschließlich Platzhalter, keine fachlichen Lerninhalte. Demo-IDs sind dauerhaft; Beispiele werden wie andere Karten im Bearbeitungsmodus bearbeitet oder gelöscht. Persönliche Änderungen bleiben bei Vorlagenupdates erhalten. Lokal gelöschte Beispiele werden bei unveränderter Vorlage nicht wiederhergestellt. Sie werden erst bei einer bewussten Wiederherstellung einer Sicherung mit diesen Beispielen erneut übernommen.
+
+## Startseite, Navigation und Lernfortschritt
+
+Die Startseite #/ zeigt alle Fächer mit abgeschlossenen Karten/gesamt, prozentualem Fortschritt und Status. Themen/Klausuren sind je Fach aufgeschlüsselt und direkt auswählbar. Die Themenliste kann ein- oder ausgeklappt werden. Fächer liegen unter #/fach/ID, Themen unter #/fach/ID/thema/ID. Startseitenlink und Seitennavigation sind vorhanden; Hash-Adressen funktionieren auf GitHub Pages auch bei Direktaufruf, Reload und Browser-Zurück/Vorwärts. Ungültige Fach-IDs führen zur Startseite, ungültige Themen zum vorhandenen Fach.
+
+Die Startseite bleibt warm Apricot/Terrakotta. Fachansichten übernehmen die feste Fachfarbe im gesamten Seitenhintergrund, Kopf, Navigation, Dialogen, Buttons und Oberflächen. Die fachgebundenen Blütenmotive und deckend ornamentfreien Karten bleiben erhalten.
+
+Fortschritt = Summe der erfassten Gewusst-Schritte / (3 × Anzahl Karten). Abgeschlossen sind nur Karten mit 3/3; 1/3 und 2/3 tragen anteilig bei. Alte einzelne Gewusst-Einträge ohne Zyklus zählen konsistent als 1/3. Bewertung, Zyklus-Neustart und Import aktualisieren die Anzeige aus dem aktuellen lokalen Stand. Leere Themen/Fächer: Noch keine Karten, kein Prozentwert und kein Bereitschaftsstatus. Prozent wird auf eine Nachkommastelle abgerundet.
+
+Statusgrenzen anhand des tatsächlichen, ungerundeten Fortschritts: 0% Noch nicht begonnen; über 0 bis unter 60% In Bearbeitung; 60 bis unter 90% Weit fortgeschritten; 90 bis unter 100% Fast geschafft; exakt alle Schritte Prüfungsbereit. Die Bezeichnung Prüfungsbereit ist ausschließlich ein gewünschtes Label für den App-Lernstand, keine fachliche Prüfung oder Erfolgsgarantie. Auch 99,6% bleiben Fast geschafft. Es werden keine Lernzeiten oder weiteren Statistiken erhoben.
