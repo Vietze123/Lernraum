@@ -1,0 +1,5 @@
+# Lokale Sicherungen nicht ins Repository aufnehmen
+lernraum-sicherung-*.json
+*.backup.json
+.DS_Store
+Thumbs.db
