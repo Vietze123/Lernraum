@@ -119,3 +119,8 @@ Sperre im Lernmodus, Speicherfehler und Import alter Sicherungen.
 Eine echte iPhone-Bedienprüfung wurde noch nicht durchgeführt.
 
 Offizielle Anleitung: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+## Warme Gestaltung
+
+Gestaltungsentscheidungen, Kontrastprüfung und Quellen sind in [DESIGN.md](DESIGN.md) dokumentiert.
+Die Farben erleichtern die Orientierung; es wird keine allgemeine Gedächtniswirkung bestimmter Farben versprochen.
